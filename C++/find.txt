@@ -1,0 +1,312 @@
+++++++++++++++++++++++++++++++++++++++++
+The system shell is bash 5.0.17(1)-release
+++++++++++++++++++++++++++++++++++++++++
+2022-09-26 15:40:33
+--product-name hispark_taurus_standard --build-target ark_js_host_linux_tools_packages --build-target ark_ts2abc_build --build-target ark_host_linux_tools_packages --build-target ets_frontend_build --ccache --gn-args is_debug=true
+[OHOS INFO] Set cache size limit to 100.0 GB
+[OHOS INFO] root_out_dir=//out/hispark_taurus
+[OHOS INFO] root_build_dir=//out/hispark_taurus
+[OHOS INFO] root_gen_dir=//out/hispark_taurus/gen
+[OHOS INFO] current_toolchain=//build/toolchain/ohos:ohos_clang_arm
+[OHOS INFO] host_toolchain=//build/toolchain/linux:clang_x64
+[OHOS INFO]
+[OHOS INFO] args: Namespace(platforms_config_file='/mnt/disk6/leixin/code/OpenHarmony/out/preloader/hispark_taurus_standard/platforms.build', subsystem_config_file='/mnt/disk6/leixin/code/OpenHarmony/out/preloader/hispark_taurus_standard/subsystem_config.json', example_subsystem_file=None, exclusion_modules_config_file='/mnt/disk6/leixin/code/OpenHarmony/out/preloader/hispark_taurus_standard/exclusion_modules.json', source_root_dir='/mnt/disk6/leixin/code/OpenHarmony/', gn_root_out_dir='/mnt/disk6/leixin/code/OpenHarmony/out/hispark_taurus', build_platform_name='phone', build_xts=False, load_test_config=True, target_os='ohos', target_cpu='arm', os_level='standard', ignore_api_check=['xts', 'common', 'developertest'], scalable_build=False)
+[OHOS INFO]
+[OHOS INFO] build configs generation is complete.
+[OHOS INFO] Could not find oem hook
+[OHOS INFO] out_dir:/mnt/disk6/leixin/code/OpenHarmony/out/hispark_taurus/gen/base/hiviewdfx/hiview
+[OHOS INFO]
+[OHOS INFO]
+[OHOS INFO] [{
+[OHOS INFO]   config = {
+[OHOS INFO]   ace_enable_gpu = false
+[OHOS INFO]   ace_engine_feature_enable_accessibility = false
+[OHOS INFO]   ace_engine_feature_enable_web = false
+[OHOS INFO]   advance_components_support = false
+[OHOS INFO]   ark_engine = {
+[OHOS INFO]   engine_defines = ["USE_ARK_ENGINE"]
+[OHOS INFO]   engine_name = "ark"
+[OHOS INFO]   engine_path = "jsi"
+[OHOS INFO] }
+[OHOS INFO]   build_container_scope_lib = true
+[OHOS INFO]   cflags_cc = ["-Wno-thread-safety-attributes", "-Wno-thread-safety-analysis"]
+[OHOS INFO]   connect_server_support = true
+[OHOS INFO]   defines = ["OHOS_PLATFORM", "OHOS_STANDARD_SYSTEM", "IMAGE_SUPPORTED", "VIDEO_SUPPORTED", "ABILITY_COMPONENT_SUPPORTED", "GPU_DISABLED", "UPLOAD_GPU_DISABLED", "FORM_SUPPORTED", "XCOMPONENT_SUPPORTED", "PLUGIN_COMPONENT_SUPPORTED", "PIXEL_MAP_SUPPORTED", "ENABLE_ROSEN_BACKEND", "ENABLE_STANDARD_INPUT", "MULTIPLE_WINDOW_SUPPORTED"]
+[OHOS INFO]   disable_gpu = true
+[OHOS INFO]   enable_ability_component = true
+[OHOS INFO]   enable_image_compression = true
+[OHOS INFO]   enable_rosen_backend = true
+[OHOS INFO]   enable_standard_input = true
+[OHOS INFO]   enable_system_clipboard = true
+[OHOS INFO]   form_components_support = true
+[OHOS INFO]   gpu_defines = ["ACE_DISABLE_GL", "RS_DISABLE_EGLIMAGE"]
+[OHOS INFO]   graphic_standard_feature_ace_enable_gpu = false
+[OHOS INFO]   graphic_standard_feature_bootanimation_enable = true
+[OHOS INFO]   graphic_standard_feature_color_gamut_enable = false
+[OHOS INFO]   graphic_standard_feature_rs_enable_eglimage = false
+[OHOS INFO]   graphic_standard_feature_rs_enable_uni_render = false
+[OHOS INFO]   hdc_register_support = true
+[OHOS INFO]   image_components_support = true
+[OHOS INFO]   is_experiment_build = false
+[OHOS INFO]   js_engines = [{
+[OHOS INFO]   declarative_default = true
+[OHOS INFO]   engine_defines = ["USE_QUICKJS_ENGINE"]
+[OHOS INFO]   engine_name = "qjs"
+[OHOS INFO]   engine_path = "quickjs"
+[OHOS INFO]   have_debug = true
+[OHOS INFO] }, {
+[OHOS INFO]   engine_defines = ["USE_ARK_ENGINE"]
+[OHOS INFO]   engine_name = "ark"
+[OHOS INFO]   engine_path = "jsi"
+[OHOS INFO] }]
+[OHOS INFO]   js_pa_support = true
+[OHOS INFO]   libace_target = "//foundation/arkui/ace_engine/build:libace"
+[OHOS INFO]   libgl = []
+[OHOS INFO]   multiple_window_support = true
+[OHOS INFO]   ohos_standard_fontmgr = true
+[OHOS INFO]   pa_engine_path = "adapter/ohos/entrance/pa_engine"
+[OHOS INFO]   pixel_map_support = true
+[OHOS INFO]   platform_deps = ["//foundation/arkui/ace_engine/adapter/ohos/entrance:ace_ohos_standard_entrance", "//foundation/arkui/ace_engine/adapter/ohos/osal:ace_osal_ohos"]
+[OHOS INFO]   plugin_components_support = true
+[OHOS INFO]   preview_support = false
+[OHOS INFO]   qjs_engine = {
+[OHOS INFO]   declarative_default = true
+[OHOS INFO]   engine_defines = ["USE_QUICKJS_ENGINE"]
+[OHOS INFO]   engine_name = "qjs"
+[OHOS INFO]   engine_path = "quickjs"
+[OHOS INFO]   have_debug = true
+[OHOS INFO] }
+[OHOS INFO]   rich_components_support = true
+[OHOS INFO]   rs_enable_eglimage = false
+[OHOS INFO]   rs_enable_gpu = false
+[OHOS INFO]   sk_use_hilog = true
+[OHOS INFO]   surface_enable_gpu = false
+[OHOS INFO]   use_curl_download = true
+[OHOS INFO]   use_external_icu = "shared"
+[OHOS INFO]   video_components_support = true
+[OHOS INFO]   xcomponent_components_support = true
+[OHOS INFO] }
+[OHOS INFO]   name = "ohos"
+[OHOS INFO] }, {
+[OHOS INFO]   config = {
+[OHOS INFO]   accessibility_support = true
+[OHOS INFO]   advance_components_support = false
+[OHOS INFO]   ark_engine = {
+[OHOS INFO]   engine_defines = ["USE_ARK_ENGINE"]
+[OHOS INFO]   engine_name = "ark"
+[OHOS INFO]   engine_path = "jsi"
+[OHOS INFO] }
+[OHOS INFO]   build_for_preview = true
+[OHOS INFO]   cflags_cc = ["-std=c++17", "-DWINVER=0x0601", "-Wno-inconsistent-dllimport", "-Wno-macro-redefined", "-Wno-missing-braces", "-Wno-thread-safety-attributes", "-Wno-thread-safety-analysis", "-Wno-ignored-attributes", "-Wno-unknown-pragmas", "-Wno-used-but-marked-unused"]
+[OHOS INFO]   connect_server_support = false
+[OHOS INFO]   defines = ["PREVIEW", "WINDOWS_PLATFORM", "_USE_MATH_DEFINES", "NOGDI", "UNICODE", "U_CHARSET_IS_UTF8=1", "SK_BUILD_FOR_WIN", "SK_BUILD_FONT_MGR_FOR_PREVIEW_WIN"]
+[OHOS INFO]   enable_ability_component = false
+[OHOS INFO]   enable_ark_preview = true
+[OHOS INFO]   enable_rosen_backend = false
+[OHOS INFO]   enable_standard_input = false
+[OHOS INFO]   enable_system_clipboard = false
+[OHOS INFO]   form_components_support = false
+[OHOS INFO]   image_components_support = false
+[OHOS INFO]   js_engines = [{
+[OHOS INFO]   engine_defines = ["USE_ARK_ENGINE"]
+[OHOS INFO]   engine_name = "ark"
+[OHOS INFO]   engine_path = "jsi"
+[OHOS INFO] }]
+[OHOS INFO]   js_pa_support = false
+[OHOS INFO]   libace_target = "//foundation/arkui/ace_engine/adapter/preview/build:libace_engine_windows"
+[OHOS INFO]   ohos_standard_fontmgr = true
+[OHOS INFO]   platform_deps = ["//foundation/arkui/ace_engine/adapter/preview/entrance:ace_preview_entrance_windows", "//foundation/arkui/ace_engine/adapter/preview/inspector:ace_inspector_windows", "//foundation/arkui/ace_engine/adapter/preview/osal:ace_osal_windows"]
+[OHOS INFO]   plugin_components_support = false
+[OHOS INFO]   preview_support = true
+[OHOS INFO]   rich_components_support = true
+[OHOS INFO]   use_build_in_js_engine = true
+[OHOS INFO]   use_curl_download = true
+[OHOS INFO]   use_external_icu = "shared"
+[OHOS INFO]   video_components_support = false
+[OHOS INFO]   web_components_support = false
+[OHOS INFO]   xcomponent_components_support = false
+[OHOS INFO] }
+[OHOS INFO]   name = "windows"
+[OHOS INFO] }, {
+[OHOS INFO]   config = {
+[OHOS INFO]   accessibility_support = true
+[OHOS INFO]   advance_components_support = false
+[OHOS INFO]   ark_engine = {
+[OHOS INFO]   engine_defines = ["USE_ARK_ENGINE"]
+[OHOS INFO]   engine_name = "ark"
+[OHOS INFO]   engine_path = "jsi"
+[OHOS INFO] }
+[OHOS INFO]   build_for_preview = true
+[OHOS INFO]   cflags_cc = ["-std=c++17", "-Wno-thread-safety-attributes", "-Wno-thread-safety-analysis", "-Wno-ignored-attributes", "-Wno-unknown-pragmas"]
+[OHOS INFO]   connect_server_support = false
+[OHOS INFO]   defines = ["PREVIEW", "MAC_PLATFORM", "UNICODE", "SK_BUILD_FONT_MGR_FOR_PREVIEW_MAC"]
+[OHOS INFO]   enable_ability_component = false
+[OHOS INFO]   enable_ark_preview = true
+[OHOS INFO]   enable_rosen_backend = false
+[OHOS INFO]   enable_standard_input = false
+[OHOS INFO]   enable_system_clipboard = false
+[OHOS INFO]   form_components_support = false
+[OHOS INFO]   image_components_support = false
+[OHOS INFO]   js_engines = [{
+[OHOS INFO]   engine_defines = ["USE_ARK_ENGINE"]
+[OHOS INFO]   engine_name = "ark"
+[OHOS INFO]   engine_path = "jsi"
+[OHOS INFO] }]
+[OHOS INFO]   js_pa_support = false
+[OHOS INFO]   libace_target = "//foundation/arkui/ace_engine/adapter/preview/build:libace_engine_mac"
+[OHOS INFO]   ohos_standard_fontmgr = true
+[OHOS INFO]   platform_deps = ["//foundation/arkui/ace_engine/adapter/preview/entrance:ace_preview_entrance_mac", "//foundation/arkui/ace_engine/adapter/preview/inspector:ace_inspector_mac", "//foundation/arkui/ace_engine/adapter/preview/osal:ace_osal_mac"]
+[OHOS INFO]   plugin_components_support = false
+[OHOS INFO]   preview_support = true
+[OHOS INFO]   rich_components_support = true
+[OHOS INFO]   use_build_in_js_engine = true
+[OHOS INFO]   use_curl_download = true
+[OHOS INFO]   use_external_icu = "shared"
+[OHOS INFO]   video_components_support = false
+[OHOS INFO]   web_components_support = false
+[OHOS INFO]   xcomponent_components_support = false
+[OHOS INFO] }
+[OHOS INFO]   name = "mac"
+[OHOS INFO] }, {
+[OHOS INFO]   config = {
+[OHOS INFO]   accessibility_support = true
+[OHOS INFO]   advance_components_support = false
+[OHOS INFO]   ark_engine = {
+[OHOS INFO]   engine_defines = ["USE_ARK_ENGINE"]
+[OHOS INFO]   engine_name = "ark"
+[OHOS INFO]   engine_path = "jsi"
+[OHOS INFO] }
+[OHOS INFO]   build_for_preview = true
+[OHOS INFO]   cflags_cc = ["-std=c++17", "-Wno-thread-safety-attributes", "-Wno-thread-safety-analysis", "-Wno-ignored-attributes", "-Wno-unknown-pragmas"]
+[OHOS INFO]   connect_server_support = false
+[OHOS INFO]   defines = ["PREVIEW", "LINUX_PLATFORM", "UNICODE", "SK_BUILD_FONT_MGR_FOR_PREVIEW_LINUX"]
+[OHOS INFO]   enable_ability_component = false
+[OHOS INFO]   enable_ark_preview = true
+[OHOS INFO]   enable_rosen_backend = false
+[OHOS INFO]   enable_standard_input = false
+[OHOS INFO]   enable_system_clipboard = false
+[OHOS INFO]   form_components_support = false
+[OHOS INFO]   image_components_support = false
+[OHOS INFO]   js_engines = [{
+[OHOS INFO]   engine_defines = ["USE_ARK_ENGINE"]
+[OHOS INFO]   engine_name = "ark"
+[OHOS INFO]   engine_path = "jsi"
+[OHOS INFO] }]
+[OHOS INFO]   js_pa_support = false
+[OHOS INFO]   libace_target = "//foundation/arkui/ace_engine/adapter/preview/build:libace_engine_linux"
+[OHOS INFO]   ohos_standard_fontmgr = true
+[OHOS INFO]   platform_deps = ["//foundation/arkui/ace_engine/adapter/preview/entrance:ace_preview_entrance_linux", "//foundation/arkui/ace_engine/adapter/preview/inspector:ace_inspector_linux", "//foundation/arkui/ace_engine/adapter/preview/osal:ace_osal_linux"]
+[OHOS INFO]   plugin_components_support = false
+[OHOS INFO]   preview_support = true
+[OHOS INFO]   rich_components_support = true
+[OHOS INFO]   use_build_in_js_engine = true
+[OHOS INFO]   use_curl_download = true
+[OHOS INFO]   use_external_icu = "shared"
+[OHOS INFO]   video_components_support = false
+[OHOS INFO]   web_components_support = false
+[OHOS INFO]   xcomponent_components_support = false
+[OHOS INFO] }
+[OHOS INFO]   name = "linux"
+[OHOS INFO] }]
+[OHOS INFO] bundle_framework_graphics = true
+[OHOS INFO] bundle_framework_free_install = true
+[OHOS INFO] bundle_framework_default_app = true
+[OHOS INFO] bundle_framework_launcher = true
+[OHOS INFO] bundle_framework_sandbox_app = true
+[OHOS INFO] bundle_framework_quick_fix = true
+[OHOS INFO] bundle_framework_app_control = true
+[OHOS INFO] distributed_bundle_framework = true
+[OHOS INFO] ability_runtime_enable = true
+[OHOS INFO] account_enable = true
+[OHOS INFO] configpolicy_enable = true
+[OHOS INFO] device_manager_enable = true
+[OHOS INFO] global_resmgr_enable = true
+[OHOS INFO] hicollie_enable = true
+[OHOS INFO] support_jsapi = true
+[OHOS INFO] hisysevent_enable = true
+[OHOS INFO] bms_rdb_enable = true
+[OHOS INFO] hisysevent_usage = true
+[OHOS INFO] has_hisysevent_part = true
+[OHOS INFO] input_feature_libinput = true
+[OHOS INFO] input_feature_hdf = false
+[OHOS INFO] input_feature_debug = false
+[OHOS INFO] input_feature_combination_key = true
+[OHOS INFO] input_feature_pointer_drawing = true
+[OHOS INFO] input_feature_monitor = true
+[OHOS INFO] input_feature_interceptor = true
+[OHOS INFO] input_feature_distributed = false
+[OHOS INFO] input_feature_keyboard = true
+[OHOS INFO] input_feature_mouse = true
+[OHOS INFO] input_feature_touchscreen = true
+[OHOS INFO] input_feature_input_device = true
+[OHOS INFO] input_feature_input_cooperation = false
+[OHOS INFO] default_toolchain =  //build/toolchain/ohos:ohos_clang_arm
+[OHOS INFO] current_toolchain =  //build/toolchain/ohos:ohos_clang_arm
+[OHOS INFO] host_toolchain =  //build/toolchain/linux:clang_x64
+[OHOS INFO] root_out_dir =  //out/hispark_taurus
+[OHOS INFO] root_output_dir_proto =  out/hispark_taurus/clang_x64
+[OHOS INFO] histreamer plugin: ffmpeg_adapter = true
+[OHOS INFO] histreamer plugin: wav_demuxer = false
+[OHOS INFO] histreamer plugin: hdi_adapter = false
+[OHOS INFO] histreamer plugin: file_source = true
+[OHOS INFO] histreamer plugin: file_fd_source = true
+[OHOS INFO] histreamer plugin: std_stream_source = true
+[OHOS INFO] histreamer plugin: http_source = true
+[OHOS INFO] histreamer plugin: stream_source = false
+[OHOS INFO] histreamer plugin: audio_server_sink = true
+[OHOS INFO] histreamer plugin:lite_aac_decoder = false
+[OHOS INFO] histreamer plugin:std_video_surface_sink = false
+[OHOS INFO] histreamer plugin:std_video_capture = false
+[OHOS INFO] hi3516dv300_group in
+[OHOS INFO] WARNING at the command-line "--args":1:307: Build argument has no effect.
+[OHOS INFO] product_path="/mnt/disk6/leixin/code/OpenHarmony/vendor/hisilicon/hispark_taurus_standard" product_name="hispark_taurus_standard" device_name="hispark_taurus" target_cpu="arm" is_standard_system=true device_path="/mnt/disk6/leixin/code/OpenHarmony/device/board/hisilicon/hispark_taurus" device_config_path="/mnt/disk6/leixin/code/OpenHarmony/device/board/hisilicon/hispark_taurus" product_config_path="/mnt/disk6/leixin/code/OpenHarmony/vendor/hisilicon/hispark_taurus_standard" common_feature_verify=true drivers_peripheral_audio_hal_notsupport_pathselect=false drivers_peripheral_audio_full_test_suite=true graphic_standard_feature_ace_enable_gpu=false ohos_build_type="debug" ohos_build_time="1664149233574" ohos_build_datetime="2022-09-26 15:40:33" is_debug=true ohos_build_enable_ccache=true build_variant="user"
+[OHOS INFO]                                                                                                                                                                                                                                                                                                                   ^-------------------------------------------------------------------------
+[OHOS INFO] The variable "device_config_path" was set as a build argument
+[OHOS INFO] but never appeared in a declare_args() block in any buildfile.
+[OHOS INFO]
+[OHOS INFO] To view all possible args, run "gn args --list <out_dir>"
+[OHOS INFO]
+[OHOS INFO] The build continued as if that argument was unspecified.
+[OHOS INFO]
+[OHOS INFO] Done. Made 24296 targets from 4186 files in 102488ms
+[OHOS INFO] [1/16] CXX clang_x64/obj/arkcompiler/ets_runtime/ecmascript/compiler/type_inference/libark_jsoptimizer_set/type_infer.o
+[OHOS INFO] [2/16] STAMP clang_x64/obj/arkcompiler/ets_runtime/ecmascript/compiler/libark_jsoptimizer_set.stamp
+[OHOS INFO] [3/16] LINK clang_x64/ark/ark_js_runtime/ark_stub_compiler
+[OHOS INFO] [4/16] ACTION //arkcompiler/ets_runtime/ecmascript/compiler:gen_stub_file(//build/toolchain/linux:clang_x64)
+[OHOS INFO] [5/16] STAMP clang_x64/obj/arkcompiler/ets_runtime/ecmascript/compiler/gen_stub_file.stamp
+[OHOS INFO] [6/16] ACTION //arkcompiler/ets_runtime/ecmascript/compiler:build_stub_to_cpp(//build/toolchain/linux:clang_x64)
+[OHOS INFO] [7/16] STAMP clang_x64/obj/arkcompiler/ets_runtime/ecmascript/compiler/build_stub_to_cpp.stamp
+[OHOS INFO] [8/16] STAMP clang_x64/obj/arkcompiler/ets_runtime/ecmascript/compiler/ark_aot_compiler_set.inputdeps.stamp
+[OHOS INFO] [9/16] CXX clang_x64/obj/out/hispark_taurus/clang_x64/gen/arkcompiler/ets_runtime/libark_stub_set/stub_an.o
+[OHOS INFO] [10/16] STAMP clang_x64/obj/arkcompiler/ets_runtime/ecmascript/compiler/libark_stub_set.stamp
+[OHOS INFO] [11/16] SOLINK clang_x64/ark/ark_js_runtime/libark_jsruntime.so
+[OHOS INFO] [12/16] LINK clang_x64/ark/ark_js_runtime/ark_js_vm
+[OHOS INFO] [13/16] LINK clang_x64/ark/ark_js_runtime/quick_fix
+[OHOS INFO] [14/16] SOLINK clang_x64/ark/ark_js_runtime/libark_jsoptimizer.so
+[OHOS INFO] [15/16] LINK clang_x64/ark/ark_js_runtime/ark_aot_compiler
+[OHOS INFO] [16/16] STAMP obj/arkcompiler/ets_runtime/ark_js_host_linux_tools_packages.stamp
+[OHOS INFO] ---------------------------------------------
+[OHOS INFO] ccache summary:
+[OHOS INFO] cache hit (direct)  : 1
+[OHOS INFO] cache hit (preprocessed)  : 0
+[OHOS INFO] cache miss  : 1
+[OHOS INFO] hit rate:  50.00%
+[OHOS INFO] mis rate: 50.00%
+[OHOS INFO] ---------------------------------------------
+[OHOS INFO] c targets overlap rate statistics
+[OHOS INFO] subsystem           files NO.       percentage      builds NO.      percentage      overlap rate
+[OHOS INFO] ark                      794        24.7%        850        25.8%   1.07
+[OHOS INFO] third_party              987        30.7%       1005        30.5%   1.02
+[OHOS INFO] thirdparty               987        30.7%       1005        30.5%   1.02
+[OHOS INFO] hiviewdfx                  1        0.0%           1        0.0%    1.00
+[OHOS INFO] securec                   78        2.4%          78        2.4%    1.00
+[OHOS INFO] startup                    7        0.2%           7        0.2%    1.00
+[OHOS INFO]
+[OHOS INFO] c overall build overlap rate: 1.02
+[OHOS INFO]
+[OHOS INFO]
+[OHOS INFO] hispark_taurus build success
+[OHOS INFO] cost time: 0:04:09
+=====build  successful=====
+2022-09-26 15:44:42
+++++++++++++++++++++++++++++++++++++++++
